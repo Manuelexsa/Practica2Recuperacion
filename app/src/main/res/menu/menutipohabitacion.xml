@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/borrartipohab"
+        android:title="Borrar Tipo Habitacion"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/modificartipohab"
+        android:title="Modificar Tipo Habitacion"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

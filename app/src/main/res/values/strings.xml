@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practica2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tipo_individual">individual</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detalle">Detalle</string>
+    <string name="title_activity_anadir_modificar_habitacion">AnadirModificarHabitacion</string>
+    <string name="title_activity_actividad_tipo_habitacion">ActividadTipoHabitacion</string>
+    <string name="left"><![CDATA[<]]></string>
+    <string name="righ"><![CDATA[>]]></string>
+    <string name="borrar_habitacion">Borrar Habitacion</string>
+    <string name="planta">Elige Nº Planta</string>
+    <string name="thab">Tipo de habitacion</string>
+    <string name="numerohab">Nº de habitacion</string>
+
+</resources>

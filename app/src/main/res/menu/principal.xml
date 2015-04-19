@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Principal" >
+    <item android:id="@+id/oxplanta"
+        android:title="Ordenar por planta"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/oxtipo"
+        android:title="Ordenar por tipo"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/oxprecio"
+        android:title="Ordenar por precio"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/anadirhab"
+        android:title="Añadir Habitacion"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/anadirtipohab"
+        android:title="Añadir Tipo Habitacion"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

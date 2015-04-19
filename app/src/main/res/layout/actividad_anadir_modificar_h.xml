@@ -1,0 +1,138 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:layout_weight="0.20" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nº de planta :"
+            android:id="@+id/tvnplanta"
+            android:gravity="center"
+            android:minWidth="130dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nº planta"
+            android:id="@+id/tvaddmodplanta"
+            android:layout_weight="0.56"
+            android:onClick="spplanta"
+            android:gravity="center" />
+
+        <ImageButton
+            android:layout_width="37dp"
+            android:layout_height="49dp"
+            android:id="@+id/imageButton"
+            android:src="@drawable/edit"
+            android:scaleType="centerCrop"
+            android:onClick="spplanta" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:weightSum="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nº de habitacion :"
+            android:id="@+id/textView2"
+            android:gravity="center_horizontal"
+            android:minWidth="130dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nº habitacion"
+            android:id="@+id/tvaddmodnhab"
+            android:layout_weight="0.56"
+            android:gravity="center" />
+
+        <ImageButton
+            android:layout_width="37dp"
+            android:layout_height="49dp"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/edit"
+            android:scaleType="centerCrop"
+            android:onClick="spnumerohab" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:weightSum="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de habitacion :"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:minWidth="130dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo habitacion"
+            android:id="@+id/tvaddmodthab"
+            android:layout_weight="0.56"
+            android:gravity="center" />
+
+        <ImageButton
+            android:layout_width="37dp"
+            android:layout_height="49dp"
+            android:id="@+id/imageButton3"
+            android:src="@drawable/edit"
+            android:scaleType="centerCrop"
+            android:onClick="sptipohab" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:layout_weight="0.73">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACEPTAR"
+            android:id="@+id/btnaceptarhab"
+            android:onClick="aceptar" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCELAR"
+            android:id="@+id/btncancelarhab"
+            android:onClick="cancelar" />
+    </LinearLayout>
+
+</LinearLayout>
